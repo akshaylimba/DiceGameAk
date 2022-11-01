@@ -12,7 +12,7 @@ function dice()
 
     a1 = Math.floor(Math.random()*6)+1;
     a2 = 'images/dice'+a1 +'.png';
-    s2 = 'images/s'+a1 +'.png';
+    s2 = 'images/s'+a1 +'.jpg';
     document.getElementById("imagedice2").src =a2;
     document.getElementById("images2").src =s2;
 }
