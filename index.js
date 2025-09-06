@@ -6,7 +6,7 @@ function dice()
     var s2;
     a1 = Math.floor(Math.random()*6)+1;
     a2 = 'images/dice'+a1 +'.png';
-    s2 = 'images/s'+a1 +'.PNG';
+    s2 = 'images/a'+a1 +'.PNG';
     document.getElementById("images1").src =s2;
     document.getElementById("imagedice1").src =a2;
 
@@ -16,3 +16,4 @@ function dice()
     document.getElementById("imagedice2").src =a2;
     document.getElementById("images2").src =s2;
 }
+
